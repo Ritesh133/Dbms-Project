@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #58a4b4;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #f9f9f9;
+    padding: 10px 0;
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Main content styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Popular items section */
+.popular-items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.popular-item {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+/* Cart styles */
+.cart {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cart img {
+    width: 50px;
+    height: 50px;
+}
